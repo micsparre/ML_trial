@@ -11,3 +11,7 @@ SVC.py utilizes the linear support vector classification algorithm (supervised) 
         - standardized accuracy = ~91%
         - normalized accuracy = ~92%
         - NOTE: normalized option made algorithm run (much) faster due to smaller scale of values
+
+keras-trial.py utilizes a Convolutional Neural Network with normalized data, achieving an accuracy of ~98-99%
+    - beginning example of using Kera's API on the MNIST digit dataset
+    - has a visual example of the first 50 images and the model's predictions and actual values
