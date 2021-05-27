@@ -20,7 +20,7 @@ test_X = test_X.reshape((len(test_X), -1))
 
 # build a support vector classifier (WARNING: time complexity of alg makes next line take a couple minutes)
 classifier = svm.LinearSVC()
-# classifier = svm.SVC(kernel = 'linear')
+# classifier = svm.SVC(kernel = 'linear') # gives increased accuracy at cost of more time
 
 ## CHOOSE either standardized or normalized data
 
