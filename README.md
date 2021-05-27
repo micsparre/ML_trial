@@ -1,7 +1,10 @@
 # ML_trial
 Trying out Machine Learning techniques on MNIST digit dataset
 
-kmeans.py utilizes the k-means algorithm of unsupervised clustering and has an accuracy of ~52-54%
+kmeans.py utilizes the k-means algorithm of unsupervised clustering
+    - can choose to either standardize or normalize the data
+        - standardize accuracy = ~52-54%
+        - normalize accuracy = ~60%
 
 SVC.py utilizes the linear support vector classification algorithm (supervised) with an accuracy of ~85% (before preprocessing data)
     - included option of using either using standardized data or normalized data (normalized is default)
